@@ -1,0 +1,267 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+
+	<title> 
+		Portfolio 
+    </title> 
+    
+	<style> 
+
+         img {
+          border-radius: 10px;
+          border:5px solid gray;
+        }
+		* { 
+			box-sizing: border-box; 
+		} 
+		body { 
+			font-family: Arial;
+			padding: 25px; 
+			background-image: url("https://wallpaperaccess.com/full/1567836.jpg");
+		} 
+		.container { 
+			max-width: 1200px; 
+			margin: auto;
+			padding: 20px;
+            margin-top: 20px;
+			background-image: url("https://wallpaperaccess.com/full/1567836.jpg");
+		} 
+		.header {
+            padding: 30px;
+            text-align: center;
+            background-image: url("https://wallpapercave.com/wp/wp7213366.jpg");
+        }
+        .header h1 {
+             font-size: 50px;
+        }
+		.rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+            }
+		.footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+		h1 { 
+			color: green;
+			font-size: 40px; 
+		} 
+		h2{
+			font-size: 35px; 
+		}
+        h3 { 
+			color: blueviolet; 
+			font-size: 25px; 
+		} 
+		h4 {
+			font-style: oblique;
+			color: rgba(128, 128, 128, 0.897);
+		}
+		 p.a {
+              font-style: normal;
+			  font-size: 25px;
+			  font-family: Arial, Helvetica, sans-serif;
+        }
+		.row { 
+			margin: 0px -18px; 
+			padding: 8px; 
+		} 
+		.row > .column { 
+			padding: 6px; 
+		} 
+		.column { 
+			float: left; 
+			width: 25%; 
+		} 
+		.row:after { 
+			content: ""; 
+			display: table; 
+			clear: both; 
+		} 	
+		.content { 
+			background-color: white; 
+			padding: 10px; 
+			border: 1px solid gray; 
+		} 
+		table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+            font-size: 25px;
+        }
+        tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+		a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            background-color: red;
+        }		
+        .navbar {
+           overflow: hidden;
+           background-color: #333;
+           font-family: Arial;
+        }
+        .navbar a {
+           float: left;
+           font-size: 16px;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+        }
+       .dropdown {
+           float: left;
+           overflow: hidden;
+        }
+        .dropdown .dropbtn {
+           font-size: 16px;
+           border: none;
+           outline: none;
+           color: white;
+           padding: 14px 16px;
+           background-color: inherit;
+           font-family: inherit; 
+           margin: 0; 
+        }
+        .navbar a:hover, .dropdown:hover .dropbtn {
+           background-color: red;
+        }
+        .dropdown-content {
+           display: none;
+           position: absolute;
+           background-color: #f9f9f9;
+           min-width: 160px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+        }
+        .dropdown-content a {
+           float: none;
+           color: black;
+           padding: 12px 16px;
+           text-decoration: none;
+           display: block;
+           text-align: left;
+        }
+        .dropdown-content a:hover {
+           background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+           display: block;
+        }
+	</style> 
+</head> 
+
+<body> 
+	<div class="header">
+		<h1>PORTFOLIO</h1>
+	</div>
+	<div class="navbar">
+		<a href="#About">About Me</a>
+		<a href="#Qualifications">Qualifications</a>
+		<a href="#Skills">Skills</a>
+		<div class="dropdown">
+		  <button class="dropbtn">More
+			<i class="fa fa-caret-down"></i>
+		  </button>
+		  <div class="dropdown-content">
+			<a href="#">GitHub</a>
+			<a href="#Contact">Contact</a>
+			<a href="#">Linkedin</a>
+		  </div>
+		</div>
+		<a href="#" style="float:right">Download CV</a>
+	  </div>
+
+	         <div class="container"> 
+
+                  <img src= 
+                     "https://theentertainmentnut.files.wordpress.com/2012/09/nf0.jpg?w=584"
+                                                     alt="" style="width:15%" align="right"> 
+					 <h1 class="title-text text-uppercase">Gaurav Yati</h1> 
+					 <h4>Coder + Gamer</h4> 
+				 <hr> 
+			
+		<h2 id="About">About Me</h2> 
+		<p class="a">I am passionate computer science student who is interested in Software Developments, Data Science,
+		Artificial Intelligence, Robotics, Animation, Open Source Software and Phyton.
+		I also like to explore new technology.</p>
+		<p class="a">I am a resident of state of Haryana.</p>
+	</div>
+	<div class="container">
+		<h2 id="Qualifications">Qualifications</h2> 
+		<div style="overflow-x:auto;">
+			<table>
+			  <tr>
+				<th>Qualification</th>
+				<th>Institute</th>
+				<th>Year</th>
+				<th>Percentage</th>
+			  </tr>
+			  <tr>
+				<td>10th</td>
+				<td>GBN School</td>
+				<td>2016</td>
+				<td>80%</td>
+			  </tr>
+			  <tr>
+				<td>12th</td>
+				<td>DAV School</td>
+				<td>2018</td>
+				<td>90%</td>
+			  </tr>
+			  <tr>
+				<td>B.Tech</td>
+				<td>Manav Rachna</td>
+				<td>2019</td>
+			  </tr>
+			</table>
+		  </div>	   
+			 </div>
+		<div class="container">
+		<h2 id="Skills">Skills</h2>
+		<div class="row"> 
+			<div class="column"> 
+				<div class="content"> 
+					<h3> 
+						Photoshop
+					</h3> 
+				</div> 
+			</div> 
+			<div class="column"> 
+				<div class="content"> 
+					<h3> 
+						Proficiency with programming languages
+					</h3> 
+				</div> 
+			</div> 
+			<div class="column"> 
+				<div class="content"> 
+					<h3> 
+						Teamwork
+					</h3> 
+				</div> 
+			</div> 
+			</div> 
+	</div> 
+	<div class="footer">
+		<h4 id="Contact">Contact info:</h4>
+		<p>xxxx-xxxx</p>
+	  </div>
+</body>
+</html>		 
